@@ -9,24 +9,28 @@
 <body>
     <nav class="navbar-des">
         <h3>
-           Learning Git
+            Learning Note
        </h3> 
     </nav>
+
     <div class="container">
         <div class="content">
-            <h1>What is Git?</h1>
-            <p>
-                Git is a version control system that tracks changes in files.
-                It allows returning to previous versions, working safely, and collaborating with others.
-            </p>
-            </div>
-            <div class="content">
+            <span>
+                <h1>What is Git?</h1>
+                <p>
+                    Git is a version control system that tracks changes in files.
+                    It allows returning to previous versions, working safely, and collaborating with others.
+                </p>
+            </span>
+        </div>
+            <div class="git-content-right">
                 <img src="images/git-logo-png-transparent-1.png" alt="Git logo">
             </div>
     </div>
+
     <div class="container">
-        <div>
-            <h1>Why Git is IMPORTANT?</h1>
+        <div class="content">
+            <h1>Why Git is Important?</h1>
             <ul>
                 <li>Tracks code history</li>
                 <li>Prevents losing work</li>
@@ -34,66 +38,115 @@
                 <li>Industry standard for developers</li>
             </ul>
         </div>
-        <div>
-            <h1>Git <span class="vs-des">vs</span> GitHub</h1>
-            <table>
-                <tr>
-                    <th>Git</th>
-                    <th>GitHub</th>
-                </tr>
-                <tr>
-                    <td>Tools</td>
-                    <td>Platform</td>
-                </tr>
-                <tr>
-                    <td>Runs locally</td>
-                    <td>Runs online</td>
-                </tr>
-                <tr>
-                    <td>Tracks changes</td>
-                    <td>Hosts repositories</td>
-                </tr>
-            </table>
+        <div class="git-content-right">
+            <span>
+
+                <h1>Git <span class="vs-des">vs</span> GitHub</h1>
+                <table>
+                    <tr>
+                        <th>Git</th>
+                        <th>GitHub</th>
+                    </tr>
+                    <tr>
+                        <td>Tools</td>
+                        <td>Platform</td>
+                    </tr>
+                    <tr>
+                        <td>Runs locally</td>
+                        <td>Runs online</td>
+                    </tr>
+                    <tr>
+                        <td>Tracks changes</td>
+                        <td>Hosts repositories</td>
+                    </tr>
+                </table>
+            </span>
         </div>
     </div>
 
     <div class="git-container">
         <div class="basic-container">
-            <span>
+            <div class="basic-content">
                 <h1>
                     Git basic commands
                 </h1>
-                <p><strong>1. git init</strong>
-                <span>
+                <p class="gitText">
+                    <strong>1. git init</strong>
                      - Initialized empty Git repository in "<i>user file path</i>/.git/".
-                </span>
-                                <div>
-                    <p>What happens when <i><strong>git init</strong></i> is executed?
-                        <ul>
-                            <li>A hidden <i>.git</i> folder is created</li>
-                            <li>This folder contains:</li>
+                </p>
+            </div>
+        </div>
+        
+        <div class="git-description">    
+                <div class="git-content">
+                    <span>
+                        <p>What happens when <i><strong>git init</strong></i> is executed?                        </p>
                             <ul>
-                                <li>
-                                    Commit history
-                                </li>
-                                <li>Branch information</li>
-                                <li>Configuration files</li>
-                            </ul>
-                            <li>The project becomes a Git repository</li>
-                        </ul>
-                        
-                    </p>
-                    <img src="images/git-folder.png" alt="Git folder">
+                                <li>A hidden <i>.git</i> folder is created</li>
+                                <li>This folder contains:</li>
+                                <ul>
+                                    <li>Commit history</li>
+                                    <li>Branch information</li>
+                                    <li>Configuration files</li>
+                                </ul>
+                                <li>The project becomes a Git repository</li>
+                            </ul> 
+
+                    </span>
                 </div>
+                    <span class="git-content-right">
+                        <img src="images/git-folder.png" alt="Git folder" class="imgDes">
+                    </span>
+                
+        </div>
+
+        <div class="basic-container">
+            <span class="basic-content">
+                <p>
+                    <strong>Note: </strong>
+                    Git does not track files automatically. It only starts tracking files after they are added and committed.
+                </p>
             </span>
+        </div>
+    
+        <div class="basic-container">
+            <span class="basic-content">
+                <p class="gitText">
+                    <strong>2. git status</strong>
+                     - It will show the staging area and working directory's current conditions.
+                </p>
+            </span>
+        </div>
+
+        <div class="git-description">    
+            <div class="git-content">
+                <div>
+                    <p>What <i><strong>git status</strong></i> shows?
+                        <ul>
+                            <li>Current branch (usually main)</li>
+                            <li>Files that are:</li>
+                            <ul>
+                                <li>Untracked → new files Git doesn’t know about</li>
+                                <li>Modified → changed files</li>
+                                <li>Staged → ready to be committed</li>
+                            </ul>
+                        </ul>
+                    </p>
+                </div>
             </div>
 
-            <span class="git-description">    
+            
 
-                <div>
-                </div>
+            <span class="git-content-right">
+                <img src="images/git-folder.png" alt="Git folder" class="imgDes">
             </span>
+        </div>
+
+    
     </div>
+
+
+
      
 </body>
 </html>

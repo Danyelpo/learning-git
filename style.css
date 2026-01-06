@@ -53,13 +53,19 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 15px;
+    padding: 0px 0px 15px;
 }
 
 .git-content {
     display: flex;
     width: 600px;
     align-items:center;
+}
+
+.git-image {
+    display: flex;
+    width: 600px;
+    align-items:start;
 }
 
 .git-content-right{
@@ -73,6 +79,8 @@ body {
     border-radius: 8px;
     border: 2px solid #E5A632;
     box-shadow: 5px 5px grey;
+    margin-bottom: 5px;
+    width: 100%;
 }
 
 .gitText {

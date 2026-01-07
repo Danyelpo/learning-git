@@ -7,7 +7,7 @@ body {
 }
 
 .navbar-des{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #4C2215;
     display: flex;
     justify-content: center;
 }
@@ -18,7 +18,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 15px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #4C2215;
     height: 100vh;
 }
 
@@ -34,7 +34,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 15px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #4C2215;
     flex-direction: column;
 }
 
@@ -96,6 +96,14 @@ body {
 
 .gitText {
     font-size: larger;
+}
+
+table, th, td {
+    border: 2px solid #4C2215;
+}
+
+th {
+    background-color: #E5A632;
 }
 
 @media screen and (max-width:1300px) {
